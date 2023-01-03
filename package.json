@@ -11,5 +11,14 @@
     "inquirer": "^8.2.4"
   },
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadelineLowes/madelines-readme-creator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MadelineLowes/madelines-readme-creator/issues"
+  },
+  "homepage": "https://github.com/MadelineLowes/madelines-readme-creator#readme",
+  "devDependencies": {},
   "description": ""
 }
