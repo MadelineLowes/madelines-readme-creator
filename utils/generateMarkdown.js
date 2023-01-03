@@ -96,25 +96,21 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-
-  //I REMOVED THIS FROM A FUNCTION INSIDE A FUNCTION SO MAKE SURE IT WORKS PROPERLY
-  //can i just write "license" as a parameter in the function or does it need to be data.license? what if I call data AND license = data.license when I call generateMarkdown from index.js??
     return `
     # ${data.title}
-    ${renderLicenseBadge(license)}
+    ${renderLicenseBadge(data.license)}
   
+    ## Description 
+    ${data.description}
+
     ## Table of Contents
-    ${tableOfContents}
     * [Description](#description)
     * [Installation](#installation)
     * [Usage](#usage)
     * [Credits](#credits)
     * [License](#license)
     * [Tests](#tests)
-    * [Contact Me](#contactme)
-    
-    ## Description 
-    ${data.description}
+    * [Quesitons](#questions)
     
     ## Installation 
     ${data.installation}
@@ -127,12 +123,12 @@ function generateMarkdown(data) {
                 
     ## License
     ${renderLicenseSection(data.license)}
-    ${renderLicenseLink(license)}
+    ${renderLicenseLink(data.license)}
     
     ## Tests 
     ${data.tests}
     
-    ## Contact Me
+    ## Questions
     email: ${data.email}
     github profile : https://github.com/${data.username}
     `;
