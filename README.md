@@ -6,13 +6,13 @@
     This is an application that runs in the terminal using Node.js to allow users to create a high quality ReadMe file for their own application more easily and efficiently. The user is prompted for information about their application like thier project title, description, installation instructions, etc. and once the user has completed their responses, the ReadMe file is created and populated with their inputted project information.
 
     ## Table of Contents
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Tests](#tests)
-    * [Quesitons](#questions)
+    *[Description](#description)
+    *[Installation](#installation)
+    *[Usage](#usage)
+    *[Credits](#credits)
+    *[License](#license)
+    *[Tests](#tests)
+    *[Quesitons](#questions)
     
     ## Installation 
     This application does not run in the browser and so the user will have to download the link from GitHub (??) and  then using an application, such as Visual Studio Code (maybe git? check this!), the user will need to type "npm init -y", and then "npm install". The application should now be ready to use.
