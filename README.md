@@ -21,13 +21,13 @@ To begin using the application, the user must open the application that has been
                 
 ## Credits 
 https://www.npmjs.com/package/inquirer
-                
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+    
 ## License
 This project is covered by MIT licensing.
 https://opensource.org/licenses/MIT
     
-## Tests 
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+## Tests  
     
 ## Questions
 email: madeline.lowes@gmail.com
