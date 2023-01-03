@@ -1,5 +1,5 @@
 # Madeline's ReadMe Creator
-https://img.shields.io/badge/License-MIT-yellow.svg
+(https://img.shields.io/badge/License-MIT-yellow.svg)
   
 ## Description 
 This is an application that runs in the terminal using Node.js to allow users to create a high quality ReadMe file for their own application more easily and efficiently. The user is prompted for information about their application like thier project title, description, installation instructions, etc. and once the user has completed their responses, the ReadMe file is created and populated with their inputted project information.
