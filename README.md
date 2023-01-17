@@ -11,7 +11,7 @@ This is an application that runs in the terminal using Node.js to allow users to
 - [Credits](#credits)
 - [License](#license)
 - [Tests](#tests)
-- [Quesitons](#questions)
+- [Questions](#questions)
     
 ## Installation 
 This application does not run in the browser and so the user will have to clone the code from GitHub and then using an application, such as Visual Studio Code or Git, the user will need to type in the terminal "npm init -y", and then "npm install". The application should now be ready to use.
