@@ -109,7 +109,7 @@ ${data.description}
 - [Credits](#credits)
 - [License](#license)
 - [Tests](#tests)
-- [Quesitons](#questions)
+- [Questions](#questions)
     
 ## Installation 
 ${data.installation}
