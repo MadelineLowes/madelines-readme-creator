@@ -97,9 +97,14 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-(${renderLicenseBadge(data.license)})
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![github][github-shield]][github-url]
   
 ## Description 
+
 ${data.description}
 
 ## Table of Contents
@@ -111,25 +116,45 @@ ${data.description}
 - [Tests](#tests)
 - [Questions](#questions)
     
-## Installation 
+## Installation
+
 ${data.installation}
                 
-## Usage 
+## Usage
+
 ${data.usage}
                 
-## Credits 
+## Credits
+
 ${data.credits}
                 
 ## License
+
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
     
-## Tests 
+## Tests
+
 ${data.tests}
     
 ## Questions
-email: ${data.email}
-github profile : https://github.com/${data.username}
+
+${data.name}:
+
+- email: ${data.email}
+- github profile : https://github.com/${data.username}
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/${data.username}/${data.repo}.svg?style=for-the-badge
+[contributors-url]: https://github.com/${data.username}/${data.repo}/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/${data.username}/${data.repo}.svg?style=for-the-badge
+[issues-url]: https://github.com/${data.username}/${data.repo}/issues
+[license-shield]: https://img.shields.io/github/license/${data.username}/${data.repo}.svg?style=for-the-badge
+[license-url]: https://github.com/${data.username}/${data.repo}/blob/main/LICENSE
+[github-shield]: https://img.shields.io/badge/-github-black.svg?style=for-the-badge&logo=github&colorB=555
+[github-url]: https://github.com/${data.username}/${data.repo}
 `;
 }
 

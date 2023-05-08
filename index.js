@@ -13,6 +13,16 @@ const questions = [
         },
         {
             type: 'input',
+            message: 'What is your project title?',
+            name: 'title',
+        },
+        {
+            type: 'input',
+            message: 'What is your GitHub repo name?',
+            name: 'repo',
+        },
+        {
+            type: 'input',
             message: 'What is your project description?',
             name: 'description',
         },
@@ -41,6 +51,11 @@ const questions = [
             message: 'What is your preferred license that the application will be covered under?',
             name: 'license',
             choices: ["None", "MIT", "The Unlicense", "Apache License 2.0", "GNU General Public License v3.0", "BSD 2-Clause Simplified License", "BSD 3-Clause New or Revised License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0"] //list options of licenses
+        },
+        {
+            type: 'input',
+            message: 'What is your full name?',
+            name: 'name',
         },
         {
             type: 'input',
