@@ -126,7 +126,7 @@ ${data.usage}
                 
 ## Credits
 
-${data.credits}
+- ${data.credits}
                 
 ## License
 
